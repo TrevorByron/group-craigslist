@@ -1,29 +1,29 @@
-h1, h2, h3 {
-  text-align: left;
-  color: #ffffff;
-  background-color: black;
-  padding: 20px; }
-
-header {
-  background-color: #ffffff; }
-  header nav {
-    background-color: white; }
-    header nav a {
-      color: green; }
-
-.message, .success, .error, .warning {
-  border: 1px solid grey;
-  padding: 10px;
-  color: grey;
-  text-decoration: none; }
-
-.success {
-  border-color: green; }
-
-.error {
-  border-color: red; }
-
-.warning {
-  border-color: yellow; }
+footer {
+  background-color: #9f9ea3;
+  overflow: hidden;
+  height: 240px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: relative; }
+  footer ul {
+    list-style: none; }
+  footer li {
+    padding: 8px; }
+  footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333; }
+  footer a:hover {
+    color: #016E90;
+    text-decoration: none; }
+  footer .list {
+    float: left;
+    margin-top: 10px; }
+  footer img {
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    top: 160px;
+    right: 40px; }
 
 /*# sourceMappingURL=main.css.map */
