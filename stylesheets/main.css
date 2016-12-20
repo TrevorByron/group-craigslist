@@ -56,7 +56,8 @@
     position: absolute;
     display: none;
     transition: display .5s;
-    width: 100%; }
+    width: 100%;
+    z-index: 4; }
   .main-search-bar li {
     background-color: white;
     padding: 10px 0px; }
@@ -279,5 +280,88 @@ h2, li, a {
   font-size: 15px;
   text-transform: uppercase;
   color: #333333; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.sidebar-items {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .sidebar-items::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .sidebar-items .sidebarcontainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .sidebar-items .sidebarcontainer:last-child {
+      margin-right: 0; }
+  .sidebar-items .all-items {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .sidebar-items .all-items:last-child {
+      margin-right: 0; }
+
+.item-holder {
+  border: 1px solid #eee;
+  display: inline-block;
+  margin: 15px; }
+  .item-holder .image-holder {
+    overflow: hidden;
+    height: 250px;
+    width: 250px; }
+    .item-holder .image-holder img {
+      height: 250px;
+      position: relative;
+      top: -20px;
+      z-index: -1; }
+  .item-holder h2 {
+    margin: 10px 5px; }
+  .item-holder .grey {
+    color: #9F9EA3; }
+  .item-holder .bottom-row {
+    padding: 5px; }
+  .item-holder .fa-user-circle-o {
+    font-size: 40px; }
+  .item-holder .stars {
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    display: inline-block; }
+  .item-holder #date {
+    float: right;
+    margin: 15px 0px 0px 0px; }
+
+.ribbon {
+  background-color: #016e90;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 0.8em;
+  left: -5px;
+  line-height: 1.5em;
+  padding: 2px 7px;
+  position: relative;
+  text-align: center;
+  top: 15px;
+  left: -40px;
+  transform: rotate(-45deg);
+  width: 130px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 /*# sourceMappingURL=main.css.map */
