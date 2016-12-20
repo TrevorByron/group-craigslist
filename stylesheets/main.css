@@ -1,22 +1,14 @@
 .sidebarcontainer .listcontainerone {
   margin: 30px 0px 60px; }
 .sidebarcontainer h2 {
-  font-family: Roboto;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #333333;
   margin: 5px 10px 5px; }
 .sidebarcontainer hr {
-  color: #9F9EA3;
+  color: #eee;
   margin: 5px;
   width: 30%; }
 .sidebarcontainer ul {
   list-style: none; }
 .sidebarcontainer li {
-  font-family: Roboto;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #333333;
   text-decoration: none;
   line-height: 2; }
 .sidebarcontainer span {
@@ -32,7 +24,7 @@
     list-style: none; }
     .sidebarcontainer .listcontainertwo .whooption div {
       background-color: white;
-      border: #9F9EA3 1px solid; }
+      border: #eee 1px solid; }
     .sidebarcontainer .listcontainertwo .whooption .buttonone {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }
@@ -46,10 +38,6 @@
       margin: -2px; }
     .sidebarcontainer .listcontainertwo .whooption a {
       text-decoration: none;
-      font-family: Roboto;
-      font-size: 16px;
-      text-transform: uppercase;
-      color: #333333;
       padding: 10px; }
     .sidebarcontainer .listcontainertwo .whooption div :target {
       color: white;
@@ -58,13 +46,19 @@
   .sidebarcontainer .listcontainertwo .priceform {
     padding: 5px 40px; }
     .sidebarcontainer .listcontainertwo .priceform input {
-      font-size: 16px;
+      font-size: 15px;
       font-family: Roboto;
       width: 80px;
       height: 40px;
-      border: 1px solid #9F9EA3;
+      border: 1px solid #eee;
       border-radius: 3px;
       text-align: center;
       margin: 5px 10px 0px 0px; }
+
+h2, li, a {
+  font-family: Roboto;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #333333; }
 
 /*# sourceMappingURL=main.css.map */
