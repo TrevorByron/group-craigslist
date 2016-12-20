@@ -102,7 +102,7 @@ header {
     .breadcrum ul a {
       color: #402a72; }
     .breadcrum ul li {
-      font-size: 13px;
+      font-size: 15px;
       display: inline-block;
       float: left;
       padding: 10px 0px; }
@@ -212,7 +212,72 @@ footer {
     top: 160px;
     right: 40px; }
 
+.sidebarcontainer .listcontainerone {
+  margin: 30px 0px 60px; }
+.sidebarcontainer h2 {
+  margin: 5px 10px 5px; }
+.sidebarcontainer hr {
+  color: #eee;
+  margin: 5px;
+  width: 30%; }
+.sidebarcontainer ul {
+  list-style: none; }
+.sidebarcontainer li {
+  text-decoration: none;
+  line-height: 2; }
+.sidebarcontainer span {
+  margin: 10px; }
+.sidebarcontainer .category li {
+  line-height: 2.5; }
+.sidebarcontainer .filter li {
+  line-height: 2.5; }
+.sidebarcontainer .listcontainertwo {
+  margin-top: 40px; }
+  .sidebarcontainer .listcontainertwo .whooption {
+    margin: 20px 0px 0px;
+    list-style: none; }
+    .sidebarcontainer .listcontainertwo .whooption div {
+      background-color: white;
+      border: #eee 1px solid; }
+    .sidebarcontainer .listcontainertwo .whooption .buttonone {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px; }
+    .sidebarcontainer .listcontainertwo .whooption .buttonthird {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    .sidebarcontainer .listcontainertwo .whooption li {
+      display: inline-block;
+      text-decoration: none;
+      background-color: none;
+      margin: -2px; }
+    .sidebarcontainer .listcontainertwo .whooption a {
+      text-decoration: none;
+      padding: 10px; }
+    .sidebarcontainer .listcontainertwo .whooption div :target {
+      color: white;
+      background-color: #9F9EA3;
+      padding: 5px; }
+  .sidebarcontainer .listcontainertwo .priceform {
+    padding: 5px 40px; }
+    .sidebarcontainer .listcontainertwo .priceform input {
+      font-size: 15px;
+      font-family: Roboto;
+      width: 80px;
+      height: 40px;
+      border: 1px solid #eee;
+      border-radius: 3px;
+      text-align: center;
+      margin: 5px 10px 0px 0px; }
+    .sidebarcontainer .listcontainertwo .priceform input:focus {
+      outline: inherit; }
+
 body {
   font-family: 'Roboto', sans-serif; }
+
+h2, li, a {
+  font-family: Roboto;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #333333; }
 
 /*# sourceMappingURL=main.css.map */
