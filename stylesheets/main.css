@@ -1,16 +1,15 @@
-.sidebarcontainer .listcontainer {
+.sidebarcontainer .listcontainerone {
   margin: 30px 0px 60px; }
-.sidebarcontainer .checkbox input {
-  padding: 40px; }
 .sidebarcontainer h2 {
   font-family: Roboto;
   font-size: 16px;
   text-transform: uppercase;
   color: #333333;
-  margin: 10px 0px 5px; }
+  margin: 5px 10px 5px; }
 .sidebarcontainer hr {
   color: #9F9EA3;
-  margin: 0px; }
+  margin: 5px;
+  width: 30%; }
 .sidebarcontainer ul {
   list-style: none; }
 .sidebarcontainer li {
@@ -20,42 +19,52 @@
   color: #333333;
   text-decoration: none;
   line-height: 2; }
-.sidebarcontainer .whooption {
-  display: block;
-  list-style: none;
-  margin-top: 20px;
-  margin-bottom: 0px; }
-  .sidebarcontainer .whooption li {
-    border: 1px solid #9F9EA3;
-    border-radius: 4px;
-    padding: 5px;
-    margin: -2px;
-    display: inline-block; }
-  .sidebarcontainer .whooption a {
-    font-family: Roboto;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #333333;
-    text-decoration: none;
-    margin: 0px; }
-  .sidebarcontainer .whooption :target {
-    font-size: 16px;
-    color: white;
-    background-color: #9F9EA3;
-    border-radius: 4px;
-    padding: 5px;
-    margin: -2px;
-    display: inline-block; }
-.sidebarcontainer .priceform {
-  padding: 5px 40px; }
-  .sidebarcontainer .priceform input {
-    font-size: 16px;
-    font-family: Roboto;
-    width: 80px;
-    height: 40px;
-    border: 1px solid #9F9EA3;
-    border-radius: 3px;
-    text-align: center;
-    margin: 5px 10px 0px 0px; }
+.sidebarcontainer span {
+  margin: 10px; }
+.sidebarcontainer .category li {
+  line-height: 2.5; }
+.sidebarcontainer .filter li {
+  line-height: 2.5; }
+.sidebarcontainer .listcontainertwo {
+  margin-top: 40px; }
+  .sidebarcontainer .listcontainertwo .whooption {
+    margin: 20px 0px 0px;
+    list-style: none; }
+    .sidebarcontainer .listcontainertwo .whooption div {
+      background-color: white;
+      border: #9F9EA3 1px solid; }
+    .sidebarcontainer .listcontainertwo .whooption .buttonone {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px; }
+    .sidebarcontainer .listcontainertwo .whooption .buttonthird {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    .sidebarcontainer .listcontainertwo .whooption li {
+      display: inline-block;
+      text-decoration: none;
+      background-color: none;
+      margin: -2px; }
+    .sidebarcontainer .listcontainertwo .whooption a {
+      text-decoration: none;
+      font-family: Roboto;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #333333;
+      padding: 10px; }
+    .sidebarcontainer .listcontainertwo .whooption div :target {
+      color: white;
+      background-color: #9F9EA3;
+      padding: 5px; }
+  .sidebarcontainer .listcontainertwo .priceform {
+    padding: 5px 40px; }
+    .sidebarcontainer .listcontainertwo .priceform input {
+      font-size: 16px;
+      font-family: Roboto;
+      width: 80px;
+      height: 40px;
+      border: 1px solid #9F9EA3;
+      border-radius: 3px;
+      text-align: center;
+      margin: 5px 10px 0px 0px; }
 
 /*# sourceMappingURL=main.css.map */

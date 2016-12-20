@@ -1,12 +1,9 @@
 
 
 .sidebarcontainer {
-.listcontainer {
-    margin: 30px 0px 60px;
-  }
 
- .checkbox input{
-    padding: 40px;
+.listcontainerone{
+    margin: 30px 0px 60px;
   }
 
   h2 {
@@ -14,12 +11,13 @@
     font-size: 16px;
     text-transform: uppercase;
     color: #333333;
-    margin:10px 0px 5px;
+    margin: 5px 10px 5px;
   }
 
   hr {
     color: #9F9EA3;
-    
+    margin: 5px;
+    width: 30%;
   }
 
   ul {
@@ -35,41 +33,64 @@
     line-height: 2;
   }
 
-  .whooption{
-    display: block;
-    list-style: none;
-    margin-top: 20px;
-    margin-bottom: 0px;
-
-  li{
-    border: 1px solid #9F9EA3;
-    border-radius: 4px;
-    padding: 5px;
-    margin: -2px;
-    display: inline-block;
+  span {
+    margin:10px;
   }
 
+  .category li {
+    line-height: 2.5;
+  }
+
+  .filter li {
+    line-height: 2.5;
+  }
+
+  .listcontainertwo {
+    margin-top: 40px;
+
+  .whooption{
+    margin: 20px 0px 0px;
+    list-style: none;
+
+    div {
+      background-color: white;
+      border:#9F9EA3 1px solid;
+    }
+
+    .buttonone {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    .buttonthird {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+
+  li{
+    display: inline-block;
+    text-decoration: none;
+    background-color: none;
+    margin: -2px;
+
+  }
 
   a {
+    text-decoration: none;
     font-family: Roboto;
     font-size: 16px;
     text-transform: uppercase;
     color: #333333;
-    text-decoration: none;
-    margin: 0px;
-    }
+    padding: 10px;
+  }
 
-    :target {
-  font-size: 16px;
+  div :target {
   color: white;
   background-color: #9F9EA3;
-  border-radius: 4px;
   padding: 5px;
-  margin: -2px;
-  display: inline-block;
 }
 }
-
 
 .priceform {
     padding: 5px 40px;
@@ -84,7 +105,7 @@
   border-radius: 3px;
   text-align: center;
   margin: 5px 10px 0px 0px;
-
+}
 }
   }
 }
