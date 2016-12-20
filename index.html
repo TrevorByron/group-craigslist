@@ -12,8 +12,40 @@
   <body>
     <header></header>
     <main>
-      <div class="">
-
+      <div class="sidebarcontainer">
+        <div class="listcontainer">
+        <h2>Category</h2>
+          <hr>
+        <ul class="category">
+          <li> <input type="checkbox" name="check-box"/> <span>Antiques</span></li>
+          <li> <input type="checkbox" name="check-box"/> <span>Baby & Kid Stuff</span></li>
+          <li> <input type="checkbox" name="check-box"/> <span>Cars & Trucks</span></li>
+          <li> <input type="checkbox" name="check-box"/> <span>Electronics</span></li>
+          <li> <input type="checkbox" name="check-box"/> <span>Free Stuff</span></li>
+          <li> <input type="checkbox" name="check-box"/> <span>General For Sale</span></li>
+        </ul>
+      </div>
+      <div class="listcontainer">
+        <h2>Filter</h2>
+          <hr>
+        <ul class="whooption">
+          <li class="target"><a href="#target1" id="target1" class="target">All</a></li>
+          <li class="target"><a href="#target2" id="target2" class="target">Owner</a></li>
+          <li class="target"><a href="#target3" id="target3" class="target">Dealer</a></li>
+        </ul>
+        <br>
+        <ul class="filter">
+          <li><input type="checkbox" name="check-box"/> <span>Search Titles Only</span></li>
+          <li><input type="checkbox" name="check-box"/> <span>Has Images</span></li>
+          <li><input type="checkbox" name="check-box"/> <span>Posted Today</span></li>
+          <li><input type="checkbox" name="check-box"/> <span>Bundle Duplicates</span></li>
+          <li><input type="checkbox" name="check-box"/> <span>Include Nearby Areas</span></li>
+        </ul>
+        <form class="priceform">
+          <h2>Price</h2>
+          <input placeholder="MIN" type="text" id="min" name="min"/>
+          <input placeholder="MAX" type="max" id="max" name="max"/>
+        </form>
       </div>
     </main>
     <footer>

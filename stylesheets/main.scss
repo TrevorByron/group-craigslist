@@ -1,0 +1,90 @@
+
+
+.sidebarcontainer {
+.listcontainer {
+    margin: 30px 0px 60px;
+  }
+
+ .checkbox input{
+    padding: 40px;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    margin:10px 0px 5px;
+  }
+
+  hr {
+    color: #9F9EA3;
+    
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    line-height: 2;
+  }
+
+  .whooption{
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+  li{
+    border: 1px solid #9F9EA3;
+    border-radius: 4px;
+    padding: 5px;
+    margin: -2px;
+    display: inline-block;
+  }
+
+
+  a {
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px;
+    }
+
+    :target {
+  font-size: 16px;
+  color: white;
+  background-color: #9F9EA3;
+  border-radius: 4px;
+  padding: 5px;
+  margin: -2px;
+  display: inline-block;
+}
+}
+
+
+.priceform {
+    padding: 5px 40px;
+
+
+  input {
+  font-size: 16px;
+  font-family: Roboto;
+  width: 80px;
+  height:40px;
+  border: 1px solid #9F9EA3;
+  border-radius: 3px;
+  text-align: center;
+  margin: 5px 10px 0px 0px;
+
+}
+  }
+}
