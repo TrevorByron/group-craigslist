@@ -4,6 +4,5 @@
 @import "partials/breadcrum";
 @import "partials/page-view";
 @import "partials/variables";
-body {
-  font-family: 'Roboto', sans-serif;
-}
+@import "partials/sidebar";
+@import "partials/typography";
