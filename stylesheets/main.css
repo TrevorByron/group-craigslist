@@ -1,8 +1,20 @@
-.outline {
+.search-holder {
+  text-align: center;
+  clear: both;
+  padding: 10px; }
+
+.searchbar-big {
   border: 1px solid #eee;
   display: inline-block;
   border-radius: 25px;
   background-color: white; }
+
+.searchbar-small {
+  border: 1px solid #eee;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: white;
+  margin: 0 auto; }
 
 .main-search-bar {
   width: 490px;
@@ -52,6 +64,8 @@
     font-size: 20px;
     padding-top: 6px;
     color: #402a72; }
+    .main-search-bar .search-icon .fa {
+      font-size: 20px; }
   .main-search-bar .drop-nav {
     position: absolute;
     display: none;
@@ -219,8 +233,7 @@ footer {
   margin: 5px 10px 5px; }
 .sidebarcontainer hr {
   color: #eee;
-  margin: 5px;
-  width: 30%; }
+  margin: 5px; }
 .sidebarcontainer ul {
   list-style: none; }
 .sidebarcontainer li {
@@ -302,14 +315,14 @@ html {
     width: 23.23176%; }
     .sidebar-items .sidebarcontainer:last-child {
       margin-right: 0; }
-  .sidebar-items .all-items {
+  .sidebar-items .all-grid-items {
     display: flex;
     flex-wrap: wrap;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%; }
-    .sidebar-items .all-items:last-child {
+    .sidebar-items .all-grid-items:last-child {
       margin-right: 0; }
 
 .item-holder {
@@ -332,13 +345,15 @@ html {
   .item-holder .bottom-row {
     padding: 5px; }
   .item-holder .fa-user-circle-o {
-    font-size: 40px; }
+    font-size: 40px;
+    color: #9F9EA3; }
   .item-holder .stars {
     font-size: 20px;
     position: relative;
     bottom: 5px;
     left: 5px;
-    display: inline-block; }
+    display: inline-block;
+    color: #ffda00; }
   .item-holder #date {
     float: right;
     margin: 15px 0px 0px 0px; }
@@ -363,5 +378,15 @@ html {
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+@media (min-width: 920px) {
+  .searchbar-small {
+    display: none; } }
+@media (min-width: 400px) and (max-width: 920px) {
+  header {
+    height: 160px; }
+    header .searchbar-big {
+      position: relative;
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */

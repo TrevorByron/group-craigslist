@@ -1,10 +1,27 @@
+.search-holder {
+  text-align: center;
+    clear: both;
+    padding: 10px;
+}
 
-
-.outline {
+.searchbar-big {
   border: 1px solid #eee;
   display: inline-block;
   border-radius: 25px;
   background-color: white;
+
+
+
+}
+.searchbar-small {
+  border: 1px solid #eee;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: white;
+
+  margin: 0 auto;
+
+
 
 }
 
@@ -66,6 +83,9 @@
     font-size: 20px;
     padding-top: 6px;
     color: #402a72;
+    .fa{
+        font-size: 20px;
+    }
   }
   .drop-nav {
     position: absolute;

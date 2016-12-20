@@ -2,12 +2,14 @@
 @import "colors";
 @import "bourbon/bourbon";
 
+
+
 .sidebar-items {
   @include outer-container;
   .sidebarcontainer {
     @include span-columns(3);
   }
-  .all-items {
+  .all-grid-items {
     display: flex;
     flex-wrap: wrap;
     @include span-columns(9);
@@ -42,6 +44,7 @@ h2 {
 }
 .fa-user-circle-o{
   font-size: 40px;
+  color: $grey;
 }
 .stars {
   font-size: 20px;
@@ -49,6 +52,7 @@ h2 {
   bottom: 5px;
   left: 5px;
   display: inline-block;
+  color: $star;
 }
 #date{
 float: right;
