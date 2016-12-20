@@ -1,8 +1,10 @@
+
 @import "partials/searchbar";
 @import "partials/header";
 @import "partials/colors";
 @import "partials/breadcrum";
 @import "partials/page-view";
+@import "partials/variables";
 
 
 
@@ -162,3 +164,4 @@ display: none;
 .topsort select:focus {
   outline: none;
 }
+
