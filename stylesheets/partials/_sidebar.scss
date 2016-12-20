@@ -1,6 +1,16 @@
 @import "colors";
+@import "neat/neat";
 
+.sidebar-items {
+  @include outer-container;
+}
 .sidebarcontainer {
+   @include span-columns(3);
+ }
+ .all-thumbnail-items {
+   @include span-column (9);
+ }
+
 .listcontainerone{
     margin: 30px 0px 60px;
   }
@@ -10,7 +20,7 @@
   hr {
     color: $bordergrey;
     margin: 5px;
-    width: 30%;
+    width: 100%;
   }
   ul {
     list-style: none;
