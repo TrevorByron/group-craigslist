@@ -1,12 +1,11 @@
-@media  (min-width: 920px) {
-.searchbar-small {
-  display: none;
-
+@media (max-width: 600px){
+.sidebar-items .sidebarcontainer  {
+    display: none;
+  }
+  .all-grid-items {
+  text-align: center;
 }
 }
-
-
-
 
 
 
@@ -19,3 +18,10 @@
 
     }
   }}
+
+  @media  (min-width: 920px) {
+  .searchbar-small {
+    display: none;
+
+  }
+  }

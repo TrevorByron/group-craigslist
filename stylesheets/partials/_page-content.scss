@@ -5,7 +5,9 @@
 
 
 .sidebar-items {
+  padding-bottom: 60px;
   @include outer-container;
+    $mobile: new-breakpoint(max-width 600px 4);
   .sidebarcontainer {
     @include span-columns(3);
   }
@@ -13,6 +15,10 @@
     display: flex;
     flex-wrap: wrap;
     @include span-columns(9);
+    @include media($mobile) {
+  @include span-columns(4);
+
+}
   }
 }
 

@@ -1,7 +1,7 @@
 .search-holder {
   text-align: center;
   clear: both;
-  padding: 10px; }
+  padding-top: 20px; }
 
 .searchbar-big {
   border: 1px solid #eee;
@@ -301,6 +301,7 @@ html {
   box-sizing: inherit; }
 
 .sidebar-items {
+  padding-bottom: 60px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
@@ -324,6 +325,14 @@ html {
     width: 74.41059%; }
     .sidebar-items .all-grid-items:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 600px) {
+      .sidebar-items .all-grid-items {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        .sidebar-items .all-grid-items:last-child {
+          margin-right: 0; } }
 
 .item-holder {
   border: 1px solid #eee;
@@ -379,14 +388,20 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-@media (min-width: 920px) {
-  .searchbar-small {
-    display: none; } }
+@media (max-width: 600px) {
+  .sidebar-items .sidebarcontainer {
+    display: none; }
+
+  .all-grid-items {
+    text-align: center; } }
 @media (min-width: 400px) and (max-width: 920px) {
   header {
     height: 160px; }
     header .searchbar-big {
       position: relative;
       display: none; } }
+@media (min-width: 920px) {
+  .searchbar-small {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
