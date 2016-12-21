@@ -245,15 +245,54 @@ header {
     width: 65%;
     padding-top: 6px; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.links {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .links::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .links .list {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .links .list:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 920px) {
+      .links .list {
+        float: left;
+        display: block;
+        margin-right: 10.1484%;
+        width: 26.56773%; }
+        .links .list:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 600px) {
+      .links .list {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        .links .list:last-child {
+          margin-right: 0; } }
+
 footer {
   background-color: #9f9ea3;
   overflow: hidden;
-  height: 240px;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  position: relative; }
+  padding: 20px; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
   footer li {
     padding: 8px; }
   footer a {
@@ -263,14 +302,10 @@ footer {
   footer a:hover {
     color: #016E90;
     text-decoration: none; }
-  footer .list {
-    float: left;
-    margin-top: 10px; }
   footer img {
+    display: block;
     width: 180px;
-    position: absolute;
-    top: 160px;
-    right: 40px; }
+    float: right; }
 
 .sidebarcontainer .listcontainerone {
   margin: 30px 0px 60px; }
@@ -451,6 +486,9 @@ html {
 @media (min-width: 560px) {
   #search-mobile {
     display: none; } }
+@media (max-width: 600px) {
+  footer {
+    text-align: center; } }
 @media (max-width: 800px) {
   .sidebar-items .sidebarcontainer {
     display: none; }
@@ -474,7 +512,11 @@ html {
     height: 160px; }
     header .searchbar-big {
       position: relative;
-      display: none; } }
+      display: none; }
+
+  footer img {
+    margin: 0 auto;
+    float: none; } }
 @media (min-width: 920px) {
   #searchbar-small {
     display: none; } }
