@@ -1,1 +1,59 @@
 @import "colors";
+@import "typography";
+
+.all-thumbnail-items {
+    h1 {
+      margin:5px 0px 10px;
+    }
+    h2 {
+      margin: 0px;
+      color:$grey;
+    }
+}
+
+.thumbnail-list-item {
+  clear:both;
+  margin-top: 40px;
+}
+
+.thumbnail-img {
+  float: left;
+  clear: both;
+
+  img {
+    height: 150px;
+    margin: 10px 20px;
+  }
+
+ }
+
+ .thumbnail-text {
+   float:left;
+   width: 40%;
+
+  img {
+     height:40px;
+     border-radius: 200px;
+     margin-top: 50px;
+     float: left;   }
+
+   .ratingstars {
+     display: inline;
+     float: left;
+     position: relative;
+     top: 55px;
+
+     .fa-star {
+       color: $star;
+     }
+   }
+
+}
+ .thumbnail-price {
+ float: left;
+
+ }
+
+ .bottom {
+   padding: 100px;
+ }

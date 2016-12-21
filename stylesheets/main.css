@@ -212,54 +212,93 @@ footer {
     top: 160px;
     right: 40px; }
 
-.sidebarcontainer .listcontainerone {
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.sidebar-items {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .sidebar-items::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .sidebar-items .sidebarcontainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .sidebar-items .sidebarcontainer:last-child {
+      margin-right: 0; }
+  .sidebar-items .all-thumbnail-items {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .sidebar-items .all-thumbnail-items:last-child {
+      margin-right: 0; }
+
+.listcontainerone {
   margin: 30px 0px 60px; }
-.sidebarcontainer h2 {
+
+h2 {
   margin: 5px 10px 5px; }
-.sidebarcontainer hr {
+
+hr {
   color: #eee;
   margin: 5px;
-  width: 30%; }
-.sidebarcontainer ul {
+  width: 100%; }
+
+ul {
   list-style: none; }
-.sidebarcontainer li {
+
+li {
   text-decoration: none;
   line-height: 2; }
-.sidebarcontainer span {
+
+span {
   margin: 10px; }
-.sidebarcontainer .category li {
-  line-height: 2.5; }
-.sidebarcontainer .filter li {
-  line-height: 2.5; }
-.sidebarcontainer .listcontainertwo {
+
+.category li {
+  padding-top: 20px;
+  line-height: 1.5; }
+
+.filter li {
+  padding-top: 20px;
+  line-height: 1.5; }
+
+.listcontainertwo {
   margin-top: 40px; }
-  .sidebarcontainer .listcontainertwo .whooption {
+  .listcontainertwo .whooption {
     margin: 20px 0px 0px;
     list-style: none; }
-    .sidebarcontainer .listcontainertwo .whooption div {
+    .listcontainertwo .whooption div {
       background-color: white;
       border: #eee 1px solid; }
-    .sidebarcontainer .listcontainertwo .whooption .buttonone {
+    .listcontainertwo .whooption .buttonone {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }
-    .sidebarcontainer .listcontainertwo .whooption .buttonthird {
+    .listcontainertwo .whooption .buttonthird {
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px; }
-    .sidebarcontainer .listcontainertwo .whooption li {
+    .listcontainertwo .whooption li {
       display: inline-block;
       text-decoration: none;
       background-color: none;
       margin: -2px; }
-    .sidebarcontainer .listcontainertwo .whooption a {
+    .listcontainertwo .whooption a {
       text-decoration: none;
       padding: 10px; }
-    .sidebarcontainer .listcontainertwo .whooption div :target {
+    .listcontainertwo .whooption div :target {
       color: white;
       background-color: #9F9EA3;
       padding: 5px; }
-  .sidebarcontainer .listcontainertwo .priceform {
+  .listcontainertwo .priceform {
     padding: 5px 40px; }
-    .sidebarcontainer .listcontainertwo .priceform input {
+    .listcontainertwo .priceform input {
       font-size: 15px;
       font-family: Roboto;
       width: 80px;
@@ -268,16 +307,72 @@ footer {
       border-radius: 3px;
       text-align: center;
       margin: 5px 10px 0px 0px; }
-    .sidebarcontainer .listcontainertwo .priceform input:focus {
+    .listcontainertwo .priceform input:focus {
       outline: inherit; }
 
 body {
   font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase; }
 
 h2, li, a {
   font-family: Roboto;
   font-size: 15px;
   text-transform: uppercase;
   color: #333333; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase; }
+
+h2, li, a {
+  font-family: Roboto;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #333333; }
+
+.all-thumbnail-items h1 {
+  margin: 5px 0px 10px; }
+.all-thumbnail-items h2 {
+  margin: 0px;
+  color: #9F9EA3; }
+
+.thumbnail-list-item {
+  clear: both;
+  margin-top: 40px; }
+
+.thumbnail-img {
+  float: left;
+  clear: both; }
+  .thumbnail-img img {
+    height: 150px;
+    margin: 10px 20px; }
+
+.thumbnail-text {
+  float: left;
+  width: 40%; }
+  .thumbnail-text img {
+    height: 40px;
+    border-radius: 200px;
+    margin-top: 50px;
+    float: left; }
+  .thumbnail-text .ratingstars {
+    display: inline;
+    float: left;
+    position: relative;
+    top: 55px; }
+    .thumbnail-text .ratingstars .fa-star {
+      color: #ffda00; }
+
+.thumbnail-price {
+  float: left; }
+
+.bottom {
+  padding: 100px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,17 +3,20 @@
 
 .sidebar-items {
   @include outer-container;
-}
+
 .sidebarcontainer {
    @include span-columns(3);
  }
  .all-thumbnail-items {
-   @include span-column (9);
+   @include span-columns(9);
  }
+ }
+
 
 .listcontainerone{
     margin: 30px 0px 60px;
   }
+
   h2 {
     margin: 5px 10px 5px;
   }
@@ -33,10 +36,12 @@
     margin:10px;
   }
   .category li {
-    line-height: 2.5;
+    padding-top: 20px;
+    line-height: 1.5;
   }
   .filter li {
-    line-height: 2.5;
+    padding-top: 20px;
+    line-height: 1.5;
   }
   .listcontainertwo {
     margin-top: 40px;
@@ -88,4 +93,3 @@
 }
 }
   }
-}
