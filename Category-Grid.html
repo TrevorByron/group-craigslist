@@ -18,9 +18,7 @@
       <div class="logo">
         <img src="images/logo.svg" alt="logo" />
       </div>
-        <!-- this is the search bar there are actually two of them for different positions depending on screen size, css styling is in partial called 'searchbar' -->
-
-
+        <!-- this is the searchbar for full desktopviewing, css styling is in partial called 'searchbar' -->
 
       <div class="searchbar-big">
       <div class="main-search-bar">
@@ -33,8 +31,8 @@
                  <li><a href="#"> FOR SALE </a></li>
                  <li><a href="#"> HOUSING </a></li>
                  <li><a href="#"> COMMUNITY </a></li>
-                  <li><a href="#">  PERSONALS </a></li>
-                  <li><a href="#"> JOBS </a></li>
+                 <li><a href="#">  PERSONALS </a></li>
+                 <li><a href="#"> JOBS </a></li>
                   <li><a href="#"> GIGS </a></li>
                   <li><a href="#"> SERVICES</a></li>
                   <li><a href="#"> RESUMES</a></li>
@@ -48,7 +46,8 @@
                   <li><a href="#">  WACO </a></li>
                   <li><a href="#"> SAN MARCOS </a></li>
                   <li><a href="#"> SAN ANTONIO </a></li>
-                </ul></li>
+            </ul>
+          </li>
         </ul>
         <div class="search-icon"> <a href="#">
           <i class="fa fa-search" aria-hidden="true"></i></a>
@@ -56,20 +55,16 @@
       </div>
       </div>
 
-<div class="post-and-profile">
- <i class="fa fa-plus-circle" aria-hidden="true"></i>
-  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
 
-        </div>
+      <!-- this is the "post" icon and the "my account" icon -->
+        <div class="post-and-profile">
+         <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </div>
 
-
-
-
-
-
+     <!-- these are the two other searchbars. one for smallest screens and one for mid size -->
         <div class="search-holder">
-
-
+          <!-- this is the smallest searchbar -->
           <div id="search-mobile" class="searchbar-small">
           <div class="main-search-bar">
             <form>
@@ -80,10 +75,11 @@
             </div>
           </div>
           </div>
+          <!-- this is the mid sized searchbar -->
         <div id="searchbar-small">
         <div class="main-search-bar">
           <form>
-                        <input class="search-field" placeholder="SEARCH" type="text">
+           <input class="search-field" placeholder="SEARCH" type="text">
           </form>
           <ul>
             <li class="dropdown"> CATEGORY <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -98,7 +94,6 @@
                     <li><a href="#"> RESUMES</a></li>
                   </ul>
             </li>
-
             <li class="dropdown"> LOCATION <i class="fa fa-caret-down" aria-hidden="true"></i>
               <ul class="drop-nav">
                    <li><a href="#"> AUSTIN </a></li>
@@ -113,12 +108,10 @@
             <i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
       </div>
-    </div>
+     </div>
 </div>
-
-
         </header>
-
+<!-- this is the breadcrum section -->
     <div class="breadcrum">
       <ul>
         <a href="#"><li>AUSTIN  <i class="fa fa-angle-right" aria-hidden="true"> </i>
@@ -127,6 +120,9 @@
         <a href="#"><li> CARS </li></a>
       </ul>
     </div>
+
+<!-- This is the navigation buttons right under breadcrum -->
+     <!-- This is only visible in small displays -->
     <div id="mobile-location" class="view-choice">
       <div class="list">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -140,7 +136,7 @@
     </div>
 <div class="page-view">
 
-
+ <!-- filter button, it is only visible when the sidebar collapses -->
   <div id="filter" class="sort">
     <div class="icon">
     <i class="fa fa-filter" aria-hidden="true"></i>
@@ -148,9 +144,9 @@
     <div class="view">
     <p> FILTER </p>
     </div>
-
   </div>
 
+<!-- this is the list/thumb/grid button -->
     <div class="view-choice">
       <div class="list">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -163,7 +159,7 @@
     </div>
     </div>
 
-
+<!-- this is the page chooser -->
 <div class="page-nav">
   <div class="previous">
     <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -176,6 +172,7 @@
    </div>
 </div>
 
+<!-- this is the button to select what order you want items displayed -->
   <div class="sort">
     <div class="view">
     <p> NEWEST </p>

@@ -381,7 +381,8 @@ html {
 .item-holder {
   border: 1px solid #eee;
   display: inline-block;
-  margin: 15px; }
+  margin: 15px;
+  text-align: left; }
   .item-holder .image-holder {
     overflow: hidden;
     height: 250px;
