@@ -1,14 +1,27 @@
-@media (max-width: 600px){
+@media (max-width: 640px){
 .sidebar-items .sidebarcontainer  {
     display: none;
   }
   .all-grid-items {
   text-align: center;
 }
+.view-choice{
+  display: none;
+}
+#mobile-location {
+  display: flex;
+}
 }
 
-
-
+@media (min-width: 600px) and (max-width: 800px){
+.item-holder{
+  .image-holder{
+    height: 200px;
+    width: 200px;
+    img {
+      height: 200px;
+}
+}}}
 @media (min-width: 400px) and (max-width: 920px) {
   header {
     height: 160px;
