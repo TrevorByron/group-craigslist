@@ -1,3 +1,4 @@
+@import "neat/neat";
 @import "partials/searchbar";
 @import "partials/header";
 @import "partials/colors";
@@ -6,3 +7,27 @@
 @import "partials/variables";
 @import "partials/sidebar";
 @import "partials/typography";
+
+.itemlisting{
+  @include outer-container;
+  .listing{
+    @include span-columns (8);
+
+  }
+  .map{
+    @include span-columns(4);
+  }
+}
+
+.listing{
+  .title-owner {
+    @include span-columns(2 of 8);
+  }
+  .price-date{
+    @include span-columns(2 of 8);
+  }
+
+
+
+
+}
