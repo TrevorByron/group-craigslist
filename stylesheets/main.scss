@@ -31,146 +31,56 @@ main {
 section {
   font-family: 'Roboto', sans-serif;
   .section-wrapper {
-    max-width: 90%;
+    max-width: 1100px;
     margin: 0 auto;
-
-  }
-
-  .community img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-  .community h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-  .sub-cat {
-    background-color: #F4F4F4;
-    width: 30%;
-    padding: 10px;
-  }
-  .sub-cat a {
-    display: block;
-    padding-left: 30px;
-    font-size: 25px;
-  }
-
-  .discussions img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .discussions h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .events img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .events h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .for-sale img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .for-sale h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .jobs img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .jobs h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .services img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .services h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .gigs img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .gigs h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
-  }
-
-  .housing img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px;
-  }
-
-  .housing h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0;
+    overflow: hidden;
+    // @include outer-container;
+    // $tablet: new-breakpoint(max-width 768px 8);
+    // $mobile: new-breakpoint(max-width 600px 4);
+    .cat-wrap {
+      width: 30%;
+      float: left;
+      margin: 20px 1.66% 0;
+      // @include span-columns(4);
+      // @include omega(3n);
+      .cat-title {
+        background-color: #B8B7BC;
+        padding: 10px;
+        overflow: hidden;
+        .icon {
+          width: 25%;
+          float: left;
+          text-align: center;
+          img {
+            width: 34px;
+          }
+        }
+        .heading {
+          width: 75%;
+          float: left;
+          h2 {
+            margin: 0;
+          }
+        }
+      }
+      .sub-cat {
+        background-color: #F4F4F4;
+        padding: 10px;
+      }
+      .sub-cat a {
+        display: block;
+        padding-left: 30px;
+        font-size: 25px;
+      }
+      // @include media($tablet) {
+      //    @include span-columns(4 of 8);
+      //    @include omega(2n);
+      // }
+      // @include media($mobile) {
+      //    @include span-columns(4);
+      //    @include omega(2n);
+      // }
+    }
   }
 
 }

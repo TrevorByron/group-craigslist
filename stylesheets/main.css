@@ -28,111 +28,34 @@ main .hero div {
 section {
   font-family: 'Roboto', sans-serif; }
   section .section-wrapper {
-    max-width: 90%;
-    margin: 0 auto; }
-  section .community img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .community h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .sub-cat {
-    background-color: #F4F4F4;
-    width: 30%;
-    padding: 10px; }
-  section .sub-cat a {
-    display: block;
-    padding-left: 30px;
-    font-size: 25px; }
-  section .discussions img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .discussions h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .events img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .events h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .for-sale img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .for-sale h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .jobs img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .jobs h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .services img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .services h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .gigs img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .gigs h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
-  section .housing img {
-    height: 48px;
-    position: relative;
-    top: 60px;
-    left: 30px; }
-  section .housing h2 {
-    background-color: #B8B7BC;
-    width: 30%;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-    margin-right: 0; }
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden; }
+    section .section-wrapper .cat-wrap {
+      width: 30%;
+      float: left;
+      margin: 20px 1.66% 0; }
+      section .section-wrapper .cat-wrap .cat-title {
+        background-color: #B8B7BC;
+        padding: 10px;
+        overflow: hidden; }
+        section .section-wrapper .cat-wrap .cat-title .icon {
+          width: 25%;
+          float: left;
+          text-align: center; }
+          section .section-wrapper .cat-wrap .cat-title .icon img {
+            width: 34px; }
+        section .section-wrapper .cat-wrap .cat-title .heading {
+          width: 75%;
+          float: left; }
+          section .section-wrapper .cat-wrap .cat-title .heading h2 {
+            margin: 0; }
+      section .section-wrapper .cat-wrap .sub-cat {
+        background-color: #F4F4F4;
+        padding: 10px; }
+      section .section-wrapper .cat-wrap .sub-cat a {
+        display: block;
+        padding-left: 30px;
+        font-size: 25px; }
 
 /*# sourceMappingURL=main.css.map */
