@@ -4,6 +4,24 @@
     padding-top: 20px;
 }
 
+
+    #search-mobile {
+
+      .main-search-bar{
+        width: 300px;
+        margin: 0 auto;
+
+
+      .search-field {
+        border-right:none;
+      }
+      .search-icon {
+        float: right;
+      }
+
+    }
+}
+
 .searchbar-big {
   border: 1px solid #eee;
   display: inline-block;
@@ -13,7 +31,7 @@
 
 
 }
-.searchbar-small {
+#searchbar-small {
   border: 1px solid #eee;
   display: inline-block;
   border-radius: 25px;
