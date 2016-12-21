@@ -199,7 +199,9 @@ footer {
   font-size: 15px;
   position: relative; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 10px; }
   footer li {
     padding: 8px; }
   footer a {
@@ -217,6 +219,13 @@ footer {
     position: absolute;
     top: 160px;
     right: 40px; }
+
+.fa.fa-share-alt, .fa.fa-phone {
+  font-size: 20px;
+  background-color: #9f9ea3;
+  border: 2px;
+  border-radius: 6px;
+  padding: 10px; }
 
 .sidebarcontainer .listcontainerone {
   margin: 30px 0px 60px; }
@@ -309,21 +318,36 @@ h2, li, a {
     .itemlisting .map:last-child {
       margin-right: 0; }
 
-.listing .title-owner {
+.item-header {
   float: left;
   display: block;
-  margin-right: 3.57866%;
-  width: 22.316%; }
-  .listing .title-owner:last-child {
+  margin-right: 2.35765%;
+  width: 168.23843%;
+  margin-left: 40px; }
+  .item-header:last-child {
     margin-right: 0; }
-.listing .price-date {
-  float: left;
-  display: block;
-  margin-right: 3.57866%;
-  width: 22.316%; }
-  .listing .price-date:last-child {
-    margin-right: 0; }
+  .item-header .title-owner {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .item-header .title-owner:last-child {
+      margin-right: 0; }
+  .item-header .price-date {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .item-header .price-date:last-child {
+      margin-right: 0; }
 
+.pictures .mainpicture {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .pictures .mainpicture:last-child {
+    margin-right: 0; }
 .pictures .tinypigs {
   float: left;
   display: block;
@@ -331,5 +355,17 @@ h2, li, a {
   width: 22.316%; }
   .pictures .tinypigs:last-child {
     margin-right: 0; }
+
+.textbox {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .textbox:last-child {
+    margin-right: 0; }
+
+.fa.fa-share-alt {
+  margin-top: 100px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */

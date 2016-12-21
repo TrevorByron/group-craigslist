@@ -19,21 +19,39 @@
   }
 }
 
-.listing{
+.item-header{
+  @include span-columns(20) ;
+  margin-left: 40px;
   .title-owner {
-    @include span-columns(2 of 8);
+    @include span-columns(6 of 12);
   }
   .price-date{
-    @include span-columns(2 of 8);
+    @include span-columns(6 of 12);
   }
 
 }
 
 .pictures{
-  
+  .mainpicture{
+    @include span-columns(12);
+  }
  .tinypigs{
    @include span-columns(2 of 8);
+
  }
 
+}
 
+.textbox{
+  @include span-columns (12) ;
+}
+
+.map{
+
+}
+
+
+.fa.fa-share-alt{
+  margin-top: 100px;
+  margin-bottom: 30px
 }

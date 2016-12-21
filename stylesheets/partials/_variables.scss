@@ -9,6 +9,9 @@
 
   ul{
     list-style: none;
+    padding-left: 15px;
+    padding-top: 10px;
+
   }
 
   li{
@@ -30,7 +33,7 @@
   }
 
   img{
-    
+
     width: 180px;
   position: absolute;
   top: 160px;
@@ -43,4 +46,19 @@
 
 footer{
   @include footer-styling;
+}
+
+
+
+@mixin icon-styling{
+  font-size: 20px;
+  background-color: #9f9ea3;
+  border: 2px;
+  border-radius: 6px;
+  padding: 10px;
+
+}
+
+.fa.fa-share-alt, .fa.fa-phone{
+  @include icon-styling;
 }
