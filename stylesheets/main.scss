@@ -8,10 +8,18 @@
 @import "partials/sidebar";
 @import "partials/typography";
 
+
+.pagenav{
+  text-align: center;
+  margin-top: 60px;
+}
+
 .itemlisting{
   @include outer-container;
+margin: 0 auto;
   .listing{
     @include span-columns (8);
+
 
   }
   .map{
@@ -20,13 +28,31 @@
 }
 
 .item-header{
-  @include span-columns(20) ;
-  margin-left: 40px;
+  @include span-columns(12) ;
+  margin-left: 25px;
+  text-transform: uppercase;
+  margin-top: 60px;
   .title-owner {
-    @include span-columns(6 of 12);
+    @include span-columns(10 of 12);
+    h1{
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 16px;
+    }
   }
   .price-date{
-    @include span-columns(6 of 12);
+    @include span-columns( 2 of 12);
+    ;
+
+    h1{
+      font-size: 25px;
+      color: #333333;
+    }
+    h2{
+      font-size: 16px;
+      color: #333333;
+    }
   }
 
 }
@@ -34,24 +60,83 @@
 .pictures{
   .mainpicture{
     @include span-columns(12);
-  }
- .tinypigs{
-   @include span-columns(2 of 8);
+    overflow: hidden;
+    width: 100%;
 
+    img{
+      height: 500px;
+      width: 100%;
+    }
+
+  }
+ .picture-1 {
+   @include span-columns(3 of 12);
+   height: 120px;
+   background-image: url("../images/tinypig1.jpeg");
+   background-size: cover;
+   width: 22%;
+   margin-left: 20px;
+    }
+
+  .picture-2{
+    @include span-columns (3 of 12);
+      height: 120px;
+      background-image: url("../images/tinypig2.jpeg");
+      background-size: cover;
+      width: 22%;
+    }
+ .picture-3{
+   @include span-columns(3 of 12);
+     height: 120px;
+     background-image: url("../images/tinypig3.jpeg");
+     background-size: cover;
+     width: 22%;
+
+    }
+    .picture-4{
+      @include span-columns(3 of 12);
+      height: 120px;
+      background-image: url("../images/tinypig4.jpeg");
+      background-size: cover;
+      width: 22%;
+       }
+}
+
+
+.textbox{
+  @include span-columns (12 of 12) ;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.map{
+ h3{
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ h6{
+   font-family: roboto;
+   font-size: 16px;
+   text-align: center;
  }
 
 }
 
-.textbox{
-  @include span-columns (12) ;
+.fa.fa-phone{
+  margin-top: 80px;
 }
 
-.map{
-
+.fa.fa-share-alt, .fa.fa-phone{
+  font-size: 16px;
 }
 
+.pagenav{
 
-.fa.fa-share-alt{
-  margin-top: 100px;
-  margin-bottom: 30px
+  .fa.fa-chevron-left, .fa.fa-chevron-right{
+  border: 2px solid #eeeeee;
+  padding: 5px;
+  width: 75px;
+  text-align: center;}
+
 }
