@@ -145,7 +145,9 @@ header {
 .page-view {
   padding: 20px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 #filter {
   margin-left: 5px;
@@ -278,7 +280,8 @@ footer {
   color: #eee;
   margin: 5px; }
 .sidebarcontainer ul {
-  list-style: none; }
+  list-style: none;
+  padding-left: 15px; }
 .sidebarcontainer li {
   text-decoration: none;
   line-height: 2; }
@@ -315,7 +318,7 @@ footer {
       background-color: #9F9EA3;
       padding: 5px; }
   .sidebarcontainer .listcontainertwo .priceform {
-    padding: 5px 40px; }
+    padding: 5px 15px; }
     .sidebarcontainer .listcontainertwo .priceform input {
       font-size: 15px;
       font-family: Roboto;
@@ -344,7 +347,7 @@ html {
   box-sizing: inherit; }
 
 .sidebar-items {
-  padding: 10px 10px 60px 10px;
+  padding: 10px 10px 10px 10px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
@@ -369,7 +372,7 @@ html {
     width: 74.41059%; }
     .sidebar-items .all-grid-items:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 800px) {
       .sidebar-items .all-grid-items {
         float: left;
         display: block;
@@ -384,6 +387,8 @@ html {
   margin: 15px;
   text-align: left; }
   .item-holder .image-holder {
+    text-align: center;
+    background-color: #eee;
     overflow: hidden;
     height: 250px;
     width: 250px; }
@@ -391,7 +396,7 @@ html {
       height: 250px;
       position: relative;
       top: -20px;
-      z-index: -1; }
+      z-index: 0; }
   .item-holder h2 {
     margin: 10px 5px; }
   .item-holder .grey {
@@ -425,7 +430,14 @@ html {
   top: 15px;
   left: -40px;
   transform: rotate(-45deg);
-  width: 130px; }
+  width: 130px;
+  z-index: 3; }
+
+.bottom-nav {
+  text-align: center;
+  padding: 10px 10px 60px 10px; }
+  .bottom-nav .page-nav {
+    margin: 0 auto; }
 
 html {
   box-sizing: border-box; }
@@ -439,7 +451,7 @@ html {
 @media (min-width: 560px) {
   #search-mobile {
     display: none; } }
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .sidebar-items .sidebarcontainer {
     display: none; }
 
