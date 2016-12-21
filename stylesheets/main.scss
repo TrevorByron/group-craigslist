@@ -27,7 +27,13 @@
     @include span-columns(2 of 8);
   }
 
+}
 
+.pictures{
+  
+ .tinypigs{
+   @include span-columns(2 of 8);
+ }
 
 
 }
