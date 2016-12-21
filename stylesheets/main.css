@@ -1,29 +1,138 @@
-h1, h2, h3 {
-  text-align: left;
-  color: #ffffff;
-  background-color: black;
-  padding: 20px; }
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 header {
-  background-color: #ffffff; }
-  header nav {
-    background-color: white; }
-    header nav a {
-      color: green; }
+  background-color: #402A72;
+  height: 100px;
+  overflow: hidden; }
+  header img {
+    height: 45px;
+    color: white;
+    margin-top: 27.5px;
+    margin-left: 27.5px; }
+  header .header-icons {
+    float: right;
+    margin-right: 27.5px; }
 
-.message, .success, .error, .warning {
-  border: 1px solid grey;
-  padding: 10px;
-  color: grey;
-  text-decoration: none; }
+main .hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  padding: 200px 0; }
+main .hero div {
+  margin: 0 auto;
+  width: 600px; }
 
-.success {
-  border-color: green; }
-
-.error {
-  border-color: red; }
-
-.warning {
-  border-color: yellow; }
+section {
+  font-family: 'Roboto', sans-serif; }
+  section .section-wrapper {
+    max-width: 90%;
+    margin: 0 auto; }
+  section .community img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .community h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .sub-cat {
+    background-color: #F4F4F4;
+    width: 30%;
+    padding: 10px; }
+  section .sub-cat a {
+    display: block;
+    padding-left: 30px;
+    font-size: 25px; }
+  section .discussions img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .discussions h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .events img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .events h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .for-sale img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .for-sale h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .jobs img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .jobs h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .services img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .services h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .gigs img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .gigs h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
+  section .housing img {
+    height: 48px;
+    position: relative;
+    top: 60px;
+    left: 30px; }
+  section .housing h2 {
+    background-color: #B8B7BC;
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */
