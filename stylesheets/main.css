@@ -1,3 +1,12 @@
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.outline {
+
 .search-holder {
   text-align: center;
   clear: both;
@@ -12,6 +21,7 @@
     float: right; }
 
 .searchbar-big {
+
   border: 1px solid #eee;
   display: inline-block;
   border-radius: 25px;
@@ -293,6 +303,7 @@ footer {
     list-style: none;
     padding: 0px;
     margin: 0px; }
+
   footer li {
     padding: 8px; }
   footer a {
@@ -413,6 +424,184 @@ html {
         display: block;
         margin-right: 7.42297%;
         width: 100%; }
+
+        .itemlisting .item-header:last-child {
+          margin-right: 0; } }
+    .itemlisting .item-header .title-owner {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%; }
+      .itemlisting .item-header .title-owner:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 500px) {
+        .itemlisting .item-header .title-owner {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 100%; }
+          .itemlisting .item-header .title-owner:last-child {
+            margin-right: 0; } }
+      .itemlisting .item-header .title-owner h1 {
+        font-size: 25px;
+        color: #333333; }
+      .itemlisting .item-header .title-owner h2 {
+        font-size: 16px;
+        font-weight: lighter; }
+    .itemlisting .item-header .price-date {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .itemlisting .item-header .price-date:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 500px) {
+        .itemlisting .item-header .price-date {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 100%;
+          font-size: 16px; }
+          .itemlisting .item-header .price-date:last-child {
+            margin-right: 0; } }
+      .itemlisting .item-header .price-date h1 {
+        font-size: 25px; }
+      .itemlisting .item-header .price-date h2 {
+        font-size: 16px;
+        color: #333333;
+        font-weight: lighter; }
+  .itemlisting .pictures .mainpicture {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    overflow: hidden;
+    width: 100%; }
+    .itemlisting .pictures .mainpicture:last-child {
+      margin-right: 0; }
+    .itemlisting .pictures .mainpicture img {
+      width: 100%; }
+    @media screen and (max-width: 500px) {
+      .itemlisting .pictures .mainpicture {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        width: 100%; }
+        .itemlisting .pictures .mainpicture:last-child {
+          margin-right: 0; } }
+  .itemlisting .pictures .bottompictures {
+    width: 100%;
+    overflow: hidden; }
+    .itemlisting .pictures .bottompictures .picture-1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 120px;
+      background-image: url("../images/tinypig1.jpeg");
+      background-size: cover;
+      width: 20%;
+      margin-left: 20px; }
+      .itemlisting .pictures .bottompictures .picture-1:last-child {
+        margin-right: 0; }
+    .itemlisting .pictures .bottompictures .picture-2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 120px;
+      background-image: url("../images/tinypig2.jpeg");
+      background-size: cover;
+      width: 22.5%; }
+      .itemlisting .pictures .bottompictures .picture-2:last-child {
+        margin-right: 0; }
+    .itemlisting .pictures .bottompictures .picture-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 120px;
+      background-image: url("../images/tinypig3.jpeg");
+      background-size: cover;
+      width: 22.5%; }
+      .itemlisting .pictures .bottompictures .picture-3:last-child {
+        margin-right: 0; }
+    .itemlisting .pictures .bottompictures .picture-4 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      height: 120px;
+      background-image: url("../images/tinypig4.jpeg");
+      background-size: cover;
+      width: 22.5%; }
+      .itemlisting .pictures .bottompictures .picture-4:last-child {
+        margin-right: 0; }
+  .itemlisting .textbox {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 20px; }
+    .itemlisting .textbox:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      .itemlisting .textbox {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        font-size: 16px; }
+        .itemlisting .textbox:last-child {
+          margin-right: 0; } }
+  .itemlisting .map {
+    text-align: center; }
+    @media screen and (max-width: 500px) {
+      .itemlisting .map {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin: 0 auto; }
+        .itemlisting .map:last-child {
+          margin-right: 0; } }
+    .itemlisting .map h3 {
+      font-size: 25px;
+      text-transform: uppercase; }
+    .itemlisting .map .button-container {
+      margin-top: 75px;
+      margin-bottom: 20px; }
+      .itemlisting .map .button-container .button {
+        background-color: #eeeeee;
+        overflow: hidden;
+        display: inline-block;
+        padding: 10px;
+        min-width: 50%;
+        text-align: center;
+        border: 2px solid #eeeeee;
+        border-radius: 10px; }
+        .itemlisting .map .button-container .button .fa {
+          float: left;
+          font-size: 20px; }
+        .itemlisting .map .button-container .button h2 {
+          float: left;
+          margin: 0;
+          margin-left: 10px; }
+
+.pagenav .fa.fa-chevron-left, .pagenav .fa.fa-chevron-right {
+  border: 2px solid #eeeeee;
+  padding: 5px;
+  width: 75px;
+  text-align: center; }
+
+.pagenav {
+  text-align: center;
+  margin-top: 60px; }
+
         .sidebar-items .all-grid-items:last-child {
           margin-right: 0; } }
 
@@ -563,5 +752,6 @@ html {
   .accordion .is-expanded {
     display: block;
     padding-bottom: 0; }
+
 
 /*# sourceMappingURL=main.css.map */

@@ -11,6 +11,7 @@
     list-style: none;
     padding: 0px;
   margin: 0px;
+
   }
 
   li{
@@ -64,4 +65,24 @@ $mobile: new-breakpoint(max-width 600px 4);
 footer{
 
   @include footer-styling;
+}
+
+
+
+// @mixin icon-styling{
+//   @include span-columns (6 of 12);
+//   margin-left: 60px;
+//   text-align: left;
+//   font-size: 20px;
+//   background-color: #eeeeee;
+//   border: 2px;
+//   border-radius: 6px;
+//   padding: 10px;
+//   margin-bottom: 16px;
+//
+//
+// }
+
+.fa.fa-share-alt, .fa.fa-phone,{
+  // @include icon-styling;
 }
