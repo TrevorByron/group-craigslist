@@ -9,49 +9,73 @@
 @import "partials/typography";
 
 
-.pagenav{
-  text-align: center;
-  margin-top: 60px;
-}
 
 .itemlisting{
   @include outer-container;
 margin: 0 auto;
+$mobile: new-breakpoint(max-width 500px 4);
   .listing{
     @include span-columns (8);
+    @include media($mobile) {
+  @include span-columns(4);
+  width: 300px;
+  margin: 0 auto;
 
+}
 
   }
   .map{
     @include span-columns(4);
-  }
+    @include media($mobile) {
+  @include span-columns(4);
+
+
 }
+  }
+
 
 .item-header{
   @include span-columns(12) ;
   margin-left: 25px;
   text-transform: uppercase;
   margin-top: 60px;
+  @include media($mobile) {
+@include span-columns(4);
+
+}
   .title-owner {
     @include span-columns(10 of 12);
+    @include media($mobile) {
+  @include span-columns(4);
+
+  }
     h1{
       font-size: 25px;
+      color: #333333;
     }
     h2 {
       font-size: 16px;
+      font-weight: lighter;
     }
   }
   .price-date{
     @include span-columns( 2 of 12);
-    ;
+    @include media($mobile) {
+  @include span-columns(4);
+  font-size: 16px;
+
+
+  }
+
 
     h1{
       font-size: 25px;
-      color: #333333;
+
     }
     h2{
       font-size: 16px;
       color: #333333;
+      font-weight: lighter;
     }
   }
 
@@ -64,17 +88,26 @@ margin: 0 auto;
     width: 100%;
 
     img{
-      height: 500px;
       width: 100%;
-    }
 
+    }
+    @include media($mobile) {
+    @include span-columns(4);
+    width: 100%;
+
+    }
   }
+
+  .bottompictures{
+    width: 100%;
+    overflow: hidden;
+
  .picture-1 {
    @include span-columns(3 of 12);
    height: 120px;
    background-image: url("../images/tinypig1.jpeg");
    background-size: cover;
-   width: 22%;
+   width: 20%;
    margin-left: 20px;
     }
 
@@ -83,14 +116,14 @@ margin: 0 auto;
       height: 120px;
       background-image: url("../images/tinypig2.jpeg");
       background-size: cover;
-      width: 22%;
+      width: 22.5%;
     }
  .picture-3{
    @include span-columns(3 of 12);
      height: 120px;
      background-image: url("../images/tinypig3.jpeg");
      background-size: cover;
-     width: 22%;
+     width: 22.5%;
 
     }
     .picture-4{
@@ -98,8 +131,9 @@ margin: 0 auto;
       height: 120px;
       background-image: url("../images/tinypig4.jpeg");
       background-size: cover;
-      width: 22%;
+      width: 22.5%;
        }
+         }
 }
 
 
@@ -107,28 +141,61 @@ margin: 0 auto;
   @include span-columns (12 of 12) ;
   margin-left: 20px;
   margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  @include media($mobile) {
+@include span-columns(4);
+font-size: 16px;
+
+
+}
+
 }
 
 .map{
- h3{
-   font-size: 20px;
-   text-align: center;
-   text-transform: uppercase;
- }
- h6{
-   font-family: roboto;
-   font-size: 16px;
-   text-align: center;
- }
+  text-align: center;
+  @include media($mobile) {
+@include span-columns(4);
+margin: 0 auto;
+
+}
+  h3{
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+.button-container{
+  margin-top: 75px;
+  margin-bottom: 20px;
+  .button{
+    background-color: #eeeeee;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    min-width: 50%;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+
+
+
+    .fa{
+      float: left;
+      font-size: 20px;
+    }
+    h2{
+      float: left;
+      margin: 0;
+      margin-left: 10px;
+
+    }
+  }
 
 }
 
-.fa.fa-phone{
-  margin-top: 80px;
-}
 
-.fa.fa-share-alt, .fa.fa-phone{
-  font-size: 16px;
+
+}
 }
 
 .pagenav{
@@ -139,4 +206,9 @@ margin: 0 auto;
   width: 75px;
   text-align: center;}
 
+}
+
+.pagenav{
+  text-align: center;
+  margin-top: 60px;
 }
