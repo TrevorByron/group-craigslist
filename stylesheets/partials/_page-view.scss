@@ -1,10 +1,48 @@
+#mobile-location{
+  display: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 .page-view {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.view-choice {
+// This is the button that the filter options dissapear into for mobile view
 
+#filter {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: none;
+  border: 1px solid $bordergrey;
+  border-radius: 3px;
+  height: 33px;
+  width: 115px;
+  justify-content: space-between;
+  text-align: center;
+  .icon {
+    width: 35%;
+    padding-top: 0px;
+    color: $grey;
+    font-size: 20px;
+  }
+  .view {
+    text-align: center;
+    width: 65%;
+    padding-top: 6px;
+  }
+}
+
+
+
+// this is the button that lets you choose "list" "thumb" or "grid" view
+
+.view-choice {
+  margin-left: 5px;
+  margin-right: 5px;
   clear: both;
   width: 208px;
   height: 33px;
@@ -33,7 +71,11 @@
   }
 }
 
+// This is the button that allows you to switch pages
+
 .page-nav {
+  margin-left: 5px;
+  margin-right: 5px;
   display: flex;
   justify-content: space-between;
   border: 1px solid $bordergrey;
@@ -63,12 +105,18 @@
     }
   }
 }
+
+// This is the button that allows you to choose what order you want your search results given to you
+
   .sort {
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     border: 1px solid $bordergrey;
     border-radius: 3px;
     height: 33px;
     width: 115px;
+    min-width: 100px;
     justify-content: space-between;
     text-align: center;
     .arrow {

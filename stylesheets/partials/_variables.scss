@@ -1,16 +1,16 @@
+@import "neat/neat";
+
 @mixin footer-styling{
     background-color: #9f9ea3;
     overflow: hidden;
-    height: 240px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    position: relative;
-
+    padding: 20px;
 
   ul{
     list-style: none;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding: 0px;
+  margin: 0px;
 
   }
 
@@ -28,23 +28,42 @@
     text-decoration: none;
   }
 
-  .list { float: left;
-    margin-top: 10px;
-  }
+
 
   img{
-
+    display: block;
     width: 180px;
-  position: absolute;
-  top: 160px;
-  right: 40px;
+    float: right;
+
+
   }
 
 
 
 }
 
+.links {
+
+  @include outer-container;
+$tablet: new-breakpoint(max-width 920px 3);
+$mobile: new-breakpoint(max-width 600px 4);
+  .list {
+  @include span-columns(3);
+
+  @include media ($tablet){
+    @include span-columns (1);
+  }
+  @include media($mobile) {
+
+@include span-columns(4);
+
+}
+  }
+}
+
+
 footer{
+
   @include footer-styling;
 }
 
