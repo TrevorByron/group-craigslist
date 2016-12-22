@@ -723,7 +723,7 @@ html {
 .accordion {
   background-color: #f6f6f6;
   border: 1px solid gainsboro;
-  margin: 10px 0 1.5em 0;
+  margin: 10px 0 1.5em 10px;
   padding: 0;
   width: 33%; }
   .accordion ul {

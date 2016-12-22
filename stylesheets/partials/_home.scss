@@ -25,9 +25,10 @@
 
   background-color: $accordion-menu-background;
   border: $accordion-menu-border;
-  margin: 10px 0 $base-spacing 0;
+  margin: 10px 0 $base-spacing 10px;
   padding: 0;
   width: 33%;
+
 
 
   ul {
@@ -39,11 +40,13 @@
     border-bottom: $accordion-menu-border;
     list-style: none;
 
+
     > a {
       color: $accordion-menu-color;
       display: block;
       padding: $accordion-menu-list-padding;
       text-decoration: none;
+
     }
 
     &:last-child {
