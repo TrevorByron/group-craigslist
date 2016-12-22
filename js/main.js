@@ -3,6 +3,3 @@ $('.js-accordion-trigger').bind('click', function(e){
   jQuery(this).parent().toggleClass('is-expanded');
   e.preventDefault();
 });
-
-
-console.log("thejkhekjhre");

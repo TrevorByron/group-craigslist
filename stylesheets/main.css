@@ -1,13 +1,9 @@
-
-
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.outline {
-  
 .search-holder {
   text-align: center;
   clear: both;
@@ -22,7 +18,6 @@ html {
     float: right; }
 
 .searchbar-big {
-
   border: 1px solid #eee;
   display: inline-block;
   border-radius: 25px;
@@ -304,7 +299,6 @@ footer {
     list-style: none;
     padding: 0px;
     margin: 0px; }
-
   footer li {
     padding: 8px; }
   footer a {
@@ -387,45 +381,63 @@ h2, li, a {
   text-transform: uppercase;
   color: #333333; }
 
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
-.sidebar-items {
-  padding: 10px 10px 10px 10px;
+.itemlisting {
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto; }
-  .sidebar-items::after {
+  margin-right: auto;
+  margin: 0 auto; }
+  .itemlisting::after {
     clear: both;
     content: "";
-    display: table; }
-  .sidebar-items .sidebarcontainer {
+    display: block; }
+  .itemlisting .listing {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
-    .sidebar-items .sidebarcontainer:last-child {
+    width: 65.88078%; }
+    .itemlisting .listing:last-child {
       margin-right: 0; }
-  .sidebar-items .all-grid-items {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    @media screen and (max-width: 500px) {
+      .itemlisting .listing {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        width: 300px;
+        margin: 0 auto; }
+        .itemlisting .listing:last-child {
+          margin-right: 0; } }
+  .itemlisting .map {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%; }
-    .sidebar-items .all-grid-items:last-child {
+    width: 31.76157%; }
+    .itemlisting .map:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 800px) {
-      .sidebar-items .all-grid-items {
+    @media screen and (max-width: 500px) {
+      .itemlisting .map {
         float: left;
         display: block;
         margin-right: 7.42297%;
         width: 100%; }
-
+        .itemlisting .map:last-child {
+          margin-right: 0; } }
+  .itemlisting .item-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 25px;
+    text-transform: uppercase;
+    margin-top: 60px; }
+    .itemlisting .item-header:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      .itemlisting .item-header {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
         .itemlisting .item-header:last-child {
           margin-right: 0; } }
     .itemlisting .item-header .title-owner {
@@ -603,6 +615,44 @@ html {
   text-align: center;
   margin-top: 60px; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.sidebar-items {
+  padding: 10px 10px 10px 10px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .sidebar-items::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .sidebar-items .sidebarcontainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .sidebar-items .sidebarcontainer:last-child {
+      margin-right: 0; }
+  .sidebar-items .all-grid-items {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .sidebar-items .all-grid-items:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 800px) {
+      .sidebar-items .all-grid-items {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
         .sidebar-items .all-grid-items:last-child {
           margin-right: 0; } }
 
@@ -663,12 +713,6 @@ html {
   padding: 10px 10px 60px 10px; }
   .bottom-nav .page-nav {
     margin: 0 auto; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
 
 @media (max-width: 559px) {
   #searchbar-small {
@@ -753,6 +797,5 @@ html {
   .accordion .is-expanded {
     display: block;
     padding-bottom: 0; }
-
 
 /*# sourceMappingURL=main.css.map */
