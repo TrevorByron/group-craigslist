@@ -1,0 +1,125 @@
+@import "../neat/neat";
+@import "partials/typography";
+@import "partials/searchbarhero";
+@import "partials/breakpoints";
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #402A72;
+  height: 100px;
+  overflow: hidden;
+  img {
+    height: 45px;
+    color: white;
+    margin-top: 27.5px;
+    margin-left: 27.5px;
+  }
+
+  .header-icons {
+    float: right;
+    margin-right: 27.5px;
+  }
+}
+
+main {
+  .hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    padding: 200px 0;
+
+}
+}
+
+section {
+  font-family: 'Roboto', sans-serif;
+  .section-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    // display: flex;
+    // flex-wrap: wrap;
+    // @include outer-container;
+    // $tablet: new-breakpoint(max-width 768px 8);
+    // $mobile: new-breakpoint(max-width 600px 4);
+
+    .cat-wrap {
+      // width: 30%;
+      // float: left;
+      // margin: 20px 1.66% 0;
+      // @include span-columns(4);
+      // @include omega(3n);
+      .cat-title {
+        background-color: #B8B7BC;
+        padding: 10px;
+        overflow: hidden;
+        .icon {
+          width: 25%;
+          float: left;
+          text-align: center;
+          img {
+            width: 26px;
+          }
+        }
+        .heading {
+          width: 75%;
+          float: left;
+          font-family: 'Roboto', sans-serif;
+          h2 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+          }
+        }
+      }
+      .sub-cat {
+        background-color: #F4F4F4;
+        padding: 10px;
+
+      }
+      .sub-cat a {
+        display: block;
+        padding-left: 30px;
+        font-size: 18px;
+        color: #424242;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5;
+      }
+      // @include media($tablet) {
+      //    @include span-columns(4 of 8);
+      //    @include omega(2n);
+      // }
+      // @include media($mobile) {
+      //    @include span-columns(4);
+      //    @include omega(2n);
+      // }
+    }
+  }
+
+}
+
+// MOBILE
+@media(max-width: 500px) {
+    .cat-wrap {
+      display: block;
+      margin: 4%;
+     }
+  }
+
+// TABLET
+  @media(min-width: 501px) and (max-width:768px){
+      .cat-wrap {
+        width: 44%;
+        margin: 20px 3% 0;
+        float: left;
+       }
+    }
+// DESKTOP
+    @media(min-width: 769px){
+        .cat-wrap {
+          width: 30%;
+          margin: 20px 1.66% 0;
+          float: left;
+         }
+      }
