@@ -30,7 +30,9 @@ section {
   section .section-wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    overflow: hidden; }
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; }
     section .section-wrapper .cat-wrap {
       width: 30%;
       float: left;
@@ -47,15 +49,25 @@ section {
             width: 34px; }
         section .section-wrapper .cat-wrap .cat-title .heading {
           width: 75%;
-          float: left; }
+          float: left;
+          font-family: 'Roboto', sans-serif; }
           section .section-wrapper .cat-wrap .cat-title .heading h2 {
-            margin: 0; }
+            margin: 0;
+            font-family: 'Roboto', sans-serif; }
       section .section-wrapper .cat-wrap .sub-cat {
         background-color: #F4F4F4;
         padding: 10px; }
       section .section-wrapper .cat-wrap .sub-cat a {
         display: block;
         padding-left: 30px;
-        font-size: 25px; }
+        font-size: 25px;
+        color: #424242;
+        font-family: 'Roboto', sans-serif; }
+
+@media (min-width 501px) and (max-width 768px) {
+  .cat-wrap {
+    width: 48%;
+    float: left;
+    margin: 20px 4% 0; } }
 
 /*# sourceMappingURL=main.css.map */

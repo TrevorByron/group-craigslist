@@ -34,6 +34,8 @@ section {
     max-width: 1100px;
     margin: 0 auto;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
     // @include outer-container;
     // $tablet: new-breakpoint(max-width 768px 8);
     // $mobile: new-breakpoint(max-width 600px 4);
@@ -58,8 +60,10 @@ section {
         .heading {
           width: 75%;
           float: left;
+          font-family: 'Roboto', sans-serif;
           h2 {
             margin: 0;
+            font-family: 'Roboto', sans-serif;
           }
         }
       }
@@ -71,6 +75,8 @@ section {
         display: block;
         padding-left: 30px;
         font-size: 25px;
+        color: #424242;
+        font-family: 'Roboto', sans-serif;
       }
       // @include media($tablet) {
       //    @include span-columns(4 of 8);
@@ -84,3 +90,13 @@ section {
   }
 
 }
+
+@media (min-width 501px) and (max-width 768px) {
+  .cat-wrap {
+    width: 48%;
+    float: left;
+    margin: 20px 4% 0;
+    // @include span-columns(4);
+    // @include omega(3n);
+   }
+ }
