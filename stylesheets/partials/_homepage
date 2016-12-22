@@ -1,0 +1,102 @@
+@import "../neat/neat";
+
+header {
+  background-color: #402A72;
+  height: 100px;
+  overflow: hidden;
+  img {
+    height: 45px;
+    color: white;
+    margin-top: 27.5px;
+    margin-left: 27.5px;
+  }
+  .header-icons {
+    float: right;
+    margin-right: 27.5px;
+  }
+}
+
+main {
+  .hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    padding: 200px 0;
+  }
+  .hero div {
+    margin: 0 auto;
+    width: 600px;
+  }
+}
+
+section {
+  font-family: 'Roboto', sans-serif;
+  .section-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    // @include outer-container;
+    // $tablet: new-breakpoint(max-width 768px 8);
+    // $mobile: new-breakpoint(max-width 600px 4);
+    .cat-wrap {
+      width: 30%;
+      float: left;
+      margin: 20px 1.66% 0;
+      // @include span-columns(4);
+      // @include omega(3n);
+      .cat-title {
+        background-color: #B8B7BC;
+        padding: 10px;
+        overflow: hidden;
+        .icon {
+          width: 25%;
+          float: left;
+          text-align: center;
+          img {
+            width: 34px;
+          }
+        }
+        .heading {
+          width: 75%;
+          float: left;
+          font-family: 'Roboto', sans-serif;
+          h2 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+          }
+        }
+      }
+      .sub-cat {
+        background-color: #F4F4F4;
+        padding: 10px;
+      }
+      .sub-cat a {
+        display: block;
+        padding-left: 30px;
+        font-size: 25px;
+        color: #424242;
+        font-family: 'Roboto', sans-serif;
+      }
+      // @include media($tablet) {
+      //    @include span-columns(4 of 8);
+      //    @include omega(2n);
+      // }
+      // @include media($mobile) {
+      //    @include span-columns(4);
+      //    @include omega(2n);
+      // }
+    }
+  }
+
+}
+
+@media (min-width 501px) and (max-width 768px) {
+  .cat-wrap {
+    width: 48%;
+    float: left;
+    margin: 20px 4% 0;
+    // @include span-columns(4);
+    // @include omega(3n);
+   }
+ }
