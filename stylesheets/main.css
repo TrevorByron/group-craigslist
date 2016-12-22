@@ -1,11 +1,4 @@
 
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
-.outline {
 
 .search-holder {
   text-align: center;
