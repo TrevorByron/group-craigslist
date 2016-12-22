@@ -14,10 +14,13 @@ padding: 27px 20px;
  .post-and-profile {
    width: 175px;
    float: right;
+   overflow: hidden;
    .fa {
      color: white;
      font-size: 40px;
      margin-left: 20px;
+     position: relative;
+     left:26px;
    }
    .fa-plus-circle {
     font-size: 46px;

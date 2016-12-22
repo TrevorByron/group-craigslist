@@ -1,6 +1,8 @@
 @import "colors";
 
+
 .sidebarcontainer {
+  
 .listcontainerone{
     margin: 30px 0px 60px;
   }
@@ -10,10 +12,11 @@
   hr {
     color: $bordergrey;
     margin: 5px;
-    width: 30%;
+
   }
   ul {
     list-style: none;
+    padding-left: 15px;
   }
   li {
     text-decoration: none;
@@ -24,6 +27,7 @@
   }
   .category li {
     line-height: 2.5;
+
   }
   .filter li {
     line-height: 2.5;
@@ -62,7 +66,7 @@
 }
 }
 .priceform {
-    padding: 5px 40px;
+    padding: 5px 15px;
   input {
   font-size: 15px;
   font-family: Roboto;
