@@ -246,46 +246,13 @@ html {
     @media screen and (max-width: 800px) {
       .sidebar-items .all-thumbnail-items .thumbnail-list-item {
         padding-right: 30px; }
-      .sidebar-items .all-thumbnail-items .thumbnail-img img {
-        height: 60px; }
+        .sidebar-items .all-thumbnail-items .thumbnail-list-item .thumbnail-img img {
+          height: 120px; }
       .sidebar-items .all-thumbnail-items h1 {
         font-size: 16px;
         margin: 0px; }
       .sidebar-items .all-thumbnail-items h2 {
-        font-size: 12px; }
-      .sidebar-items .all-thumbnail-items .user-img {
-        position: relative;
-        top: 0px;
-        margin: 0px 5px 5px 0px; }
-      .sidebar-items .all-thumbnail-items .ratingstars {
-        position: relative;
-        top: 10px;
-        margin: 0px 5px 5px 0px; } }
-    @media screen and (max-width: 500px) {
-      .sidebar-items .all-thumbnail-items {
-        float: left;
-        display: block;
-        margin-right: 7.42297%;
-        width: 100%; }
-        .sidebar-items .all-thumbnail-items:last-child {
-          margin-right: 0; }
-        .sidebar-items .all-thumbnail-items .thumbnail-list-item {
-          padding-right: 30px; }
-        .sidebar-items .all-thumbnail-items .thumbnail-img img {
-          height: 60px; }
-        .sidebar-items .all-thumbnail-items h1 {
-          font-size: 16px;
-          margin: 0px; }
-        .sidebar-items .all-thumbnail-items h2 {
-          font-size: 12px; }
-        .sidebar-items .all-thumbnail-items .user-img {
-          position: relative;
-          top: 0px;
-          margin: 0px 5px 5px 0px; }
-        .sidebar-items .all-thumbnail-items .ratingstars {
-          position: relative;
-          top: 10px;
-          margin: 0px 5px 5px 0px; } }
+        font-size: 12px; } }
 
 .listcontainerone {
   margin: 30px 0px 60px; }
@@ -385,50 +352,44 @@ h2, li, a {
 .all-thumbnail-items h1 {
   margin: 5px 0px 10px; }
 .all-thumbnail-items h2 {
-  margin: 0px;
-  color: #9F9EA3; }
-
-.thumbnail-list-item {
+  margin: 0px; }
+.all-thumbnail-items .thumbnail-list-item {
   clear: both;
   margin-top: 40px;
   min-width: 600px; }
-
-.thumbnail-img {
-  float: left;
-  clear: both; }
-  .thumbnail-img img {
-    height: 150px;
-    margin: 10px 20px; }
-
-.thumbnail-text {
-  float: left;
-  width: 40%; }
-  .thumbnail-text .description {
-    margin-right: 20px; }
-  .thumbnail-text .user-img {
-    position: relative;
-    top: 30px;
-    border-radius: 30px;
-    overflow: hidden;
-    background: grey;
-    width: 40px;
-    height: 40px;
+  .all-thumbnail-items .thumbnail-list-item .thumbnail-img {
     float: left;
-    margin: 10px 10px 0px 0px; }
-    .thumbnail-text .user-img img {
-      height: 60px; }
-  .thumbnail-text .ratingstars {
-    display: inline;
+    clear: both; }
+    .all-thumbnail-items .thumbnail-list-item .thumbnail-img img {
+      height: 150px;
+      margin: 10px 20px; }
+  .all-thumbnail-items .thumbnail-list-item .thumbnail-text {
     float: left;
-    position: relative;
-    top: 50px; }
-    .thumbnail-text .ratingstars .fa-star {
-      color: #ffda00; }
-
-.thumbnail-price {
-  float: left; }
-
-.bottom {
-  padding: 100px; }
+    width: 40%; }
+    .all-thumbnail-items .thumbnail-list-item .thumbnail-text .description {
+      margin-right: 20px; }
+    .all-thumbnail-items .thumbnail-list-item .thumbnail-text .user-img {
+      position: relative;
+      top: 30px;
+      border-radius: 30px;
+      overflow: hidden;
+      background: grey;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin: 10px 10px 0px 0px; }
+      .all-thumbnail-items .thumbnail-list-item .thumbnail-text .user-img img {
+        height: 60px; }
+    .all-thumbnail-items .thumbnail-list-item .thumbnail-text .ratingstars {
+      display: inline;
+      float: left;
+      position: relative;
+      top: 50px; }
+      .all-thumbnail-items .thumbnail-list-item .thumbnail-text .ratingstars .fa-star {
+        color: #ffda00; }
+  .all-thumbnail-items .thumbnail-list-item .thumbnail-price {
+    float: left; }
+  .all-thumbnail-items .thumbnail-list-item .bottom {
+    padding: 100px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,54 +15,21 @@
 
  .all-thumbnail-items {
 @include span-columns(9);
+
 @include media($tablet) {
   .thumbnail-list-item {
     padding-right: 30px;
+
+    .thumbnail-img img{
+    height: 120px;
   }
-  .thumbnail-img img{
-    height: 60px;
   }
   h1 {font-size: 16px;
   margin: 0px;}
   h2 {font-size: 12px;}
-  .user-img {
-    position: relative;
-    top: 0px;
-    margin: 0px 5px 5px 0px;
-  }
-  .ratingstars {
-    position: relative;
-    top: 10px;
-    margin: 0px 5px 5px 0px;
-  }
-
-}
- @include media($mobile) {
- @include span-columns(4);
-
- .thumbnail-list-item {
-   padding-right: 30px;
- }
- .thumbnail-img img{
-   height: 60px;
- }
- h1 {font-size: 16px;
- margin: 0px;}
- h2 {font-size: 12px;}
- .user-img {
-   position: relative;
-   top: 0px;
-   margin: 0px 5px 5px 0px;
- }
- .ratingstars {
-   position: relative;
-   top: 10px;
-   margin: 0px 5px 5px 0px;
- }
-
 }
 }
- }
+}
 
 
 .listcontainerone{
